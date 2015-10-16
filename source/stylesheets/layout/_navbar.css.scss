@@ -8,6 +8,7 @@
     display: flex;
     height: 70px;
     align-items: center;
+    position: relative;
   }
   &-item {
     flex: 0 1 auto;
@@ -95,6 +96,14 @@
       transform: rotate(45deg);
       border-left: 1px solid #E6E6E6;
       border-top: 1px solid #E6E6E6;
+
     }
   }
+  &-position{
+  position: absolute;
+  right: 500px;
+  top: 25px;
+  }
 }
+
+

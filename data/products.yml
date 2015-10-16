@@ -1,4 +1,91 @@
-- name: Some product
-  image: some_product.png
-- name: Other product
-  image: other_product.png
+- name: Maxime
+  description: Very cool guy
+  popularity: POPULAR
+  image: maxime.png
+- name: Arthur
+  description: Very dickhead guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Oscar
+  description: Very drunk guy
+  popularity: POPULAR
+  image: oscar.png
+- name: Willi
+  description: Very cool guy
+  popularity: UNPOPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Maxime
+  description: Very cool guy
+  popularity: POPULAR
+  image: maxime.png
+- name: Arthur
+  description: Very dickhead guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Oscar
+  description: Very drunk guy
+  popularity: POPULAR
+  image: oscar.png
+- name: Willi
+  description: Very cool guy
+  popularity: UNPOPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Maxime
+  description: Very cool guy
+  popularity: POPULAR
+  image: maxime.png
+- name: Arthur
+  description: Very dickhead guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Oscar
+  description: Very drunk guy
+  popularity: POPULAR
+  image: oscar.png
+- name: Willi
+  description: Very cool guy
+  popularity: UNPOPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Maxime
+  description: Very cool guy
+  popularity: POPULAR
+  image: maxime.png
+- name: Arthur
+  description: Very dickhead guy
+  popularity: POPULAR
+  image: arthur.png
+- name: Oscar
+  description: Very drunk guy
+  popularity: POPULAR
+  image: oscar.png
+- name: Willi
+  description: Very cool guy
+  popularity: UNPOPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
+
+
+
