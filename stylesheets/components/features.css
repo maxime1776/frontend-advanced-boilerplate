@@ -1,0 +1,19 @@
+/* line 1, /Users/Maxime/code/maxime1776/frontend-advanced-boilerplate/source/stylesheets/components/features.scss */
+.features {
+  position: relative;
+  padding: 10px; }
+
+/* line 6, /Users/Maxime/code/maxime1776/frontend-advanced-boilerplate/source/stylesheets/components/features.scss */
+.features h2 {
+  font-size: 17px;
+  padding-left: 10px; }
+
+/* line 13, /Users/Maxime/code/maxime1776/frontend-advanced-boilerplate/source/stylesheets/components/features.scss */
+.features img {
+  height: 23px;
+  padding-right: 20px; }
+
+/* line 18, /Users/Maxime/code/maxime1776/frontend-advanced-boilerplate/source/stylesheets/components/features.scss */
+.features -name {
+  text-align: center;
+  padding: 20px; }
