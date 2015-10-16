@@ -1,0 +1,47 @@
+.banner{
+  position: relative;
+  padding: 100px;
+  background-size: cover;
+  background-image: url('https://unsplash.it/800/300/?random');
+  z-index: 0;
+
+}
+
+.banner h1{
+  color: white;
+  font-family: Open sans;
+}
+
+
+.banner p {
+  color: white;
+  font-family: Open sans;
+
+}
+
+.banner-content {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-shadow{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: -webkit-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #16222A 10%, #3A6073 90%); /* W3C */
+  z-index:1;
+  opacity: 0.6;
+}
+
+
+.btn{
+  text-decoration: none;
+  margin: 25px;
+}
+

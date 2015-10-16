@@ -1,9 +1,104 @@
 ---
-title: Le Wagon Middleman boilerplate
+title: Gonwa
 ---
 
 <div class="welcome text-center padded">
-  <h1>Middleman is Watching</h1>
+  <body>
+
+    <!-- Banner -->
+    <div class="banner text-center">
+      <div class="banner-shadow"></div>
+      <div class="banner-content fade-and-slide">
+        <h1>Le Wagon</h1>
+        <p>We are family</p>
+        <%= link_to "Let's GO" , "http://lewagon.org", class: "btn btn-danger btn-lg" %>
+      </div>
+    </div>
+
+    <!-- Cards -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-3">
+            <div class="features">
+              <h2>
+                <%= image_tag "chat.png" %> This is the way we code
+              </h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.
+                </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="features">
+              <h2>
+                <%= image_tag "search.png" %>
+                 This is the way we learn
+              </h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.
+                </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3">
+            <div class="features">
+              <h2>
+                <%= image_tag "mobile.png" %> This is the way we share
+              </h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.
+                </p>
+            </div>
+          </div>
+           <div class="col-xs-12 col-md-3">
+            <div class="features">
+              <h2>
+                <%= image_tag "heart.png" %> This is the way we love
+              </h2>
+              <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores sequi sed, odit tenetur? Necessitatibus ad nulla deleniti quis vel facere hic illum omnis expedita beatae aliquam quibusdam asperiores laborum, magni.
+                </p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+        <h2 class="text-center">KILLER GUY'S @ WAGON</h2>
+        <div class="col-xs-12 col-md-4">
+          <div class="cards">
+            <h3 class="card-name">Maxime</h3>
+            <p class="card-description">Very cool guy</p>
+            <p class="card-popular">POPULAR</p>
+            <img class="img-small" src="images/maxime.png" alt="">
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4">
+           <div class="cards">
+            <h3 class="card-name">Arthur</h3>
+            <p class="card-description">Very dickhead guy</p>
+            <p class="card-popular">POPULAR</p>
+            <img class="img-small" src="images/arthur.png" alt="">
+          </div>
+        </div>
+          <div class="col-xs-12 col-md-4">
+           <div class="cards">
+            <h3 class="card-name">Oscar</h3>
+            <p class="card-description">Very drunk guy</p>
+            <p class="card-popular">POPULAR</p>
+            <img class="img-small" src="images/oscar.png" alt="">
+          </div>
+        </div>
+    <!-- Newsletter -->
+
+<div class="text-center padded" id="newsletter">
+  <h2>Get news from us !</h2>
+  <p>Leave us your email</p>
+  <form action="/" class="form-inline">
+    <input type="email" placeholder="magueule@gmail.com" class="form-control">
+    <input type="submit" value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
+  </form>
+</div>
   <p class="doc">
     <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
   </p><!-- .doc -->
