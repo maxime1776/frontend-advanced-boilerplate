@@ -7,13 +7,12 @@ title: Gonwa
     <!-- Banner -->
     <div class="banner text-center">
       <div class="banner-shadow"></div>
-      <div class="banner-content fade-and-slide">
+      <div class="banner-content fade-and-slide" data-sr='wait 2.5s, ease-in-out 100px'>
         <h1>Le Wagon</h1>
         <p>We are family</p>
         <%= link_to "Let's GO" , "http://lewagon.org", class: "btn btn-danger btn-lg" %>
       </div>
     </div>
-
     <!-- Cards -->
     <div class="container">
       <div class="row">
@@ -61,23 +60,24 @@ title: Gonwa
       </div>
 
 
-
+      <div class="row" id="team" data-sr="enter bottom">
         <h2 class="text-center">KILLER GUY'S @ WAGON</h2>
-          <%  data.products.each do |post| %>
-            <div class="col-xs-12 col-md-4">
-              <div class="cards">
-                <h3 class="card-name"><%= post.name %></h3>
-                <p class="card-description"> <%= post.description %> </p>
-                <p class="card-popular"><%= post.popularity %></p>
-                  <%= image_tag post.image %>
-              </div>
+        <% data.products.each do |post| %>
+          <div class="col-xs-12 col-md-4">
+            <div class="cards">
+              <h3 class="card-name"><%= post.name %></h3>
+              <p class="card-description"> <%= post.description %> </p>
+              <p class="card-popular"><%= post.popularity %></p>
+                <%= image_tag post.image %>
             </div>
-          <% end %>
-        </div>
+          </div>
+        <% end %>
+      </div>
+
 
 
     <!-- Newsletter -->
-
+<div id="contact">
 <div class="text-center padded" id="newsletter">
   <h2>Get news from us !</h2>
   <p>Leave us your email</p>
@@ -86,4 +86,6 @@ title: Gonwa
     <input type="submit" value="Subscribe" class="btn btn-primary btn-bordered btn-bordered-primary">
   </form>
 </div>
-</div><!-- .welcome -->
+</div>
+
+<!-- .welcome -->

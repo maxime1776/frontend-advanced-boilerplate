@@ -2,6 +2,10 @@
 # the following line to use "http://" instead
 source 'https://rubygems.org'
 
+source 'https://rails-assets.org' do
+  gem 'rails-assets-scrollReveal.js'
+end
+
 gem "middleman", "~> 3.3.10"
 
 # Live-reloading plugin
@@ -20,6 +24,10 @@ gem 'middleman-deploy', '~> 1.0'
 gem 'jquery-middleman'
 gem 'bootstrap-sass', '~> 3.3.1'
 gem 'font-awesome-sass', '~> 4.2.0'
+
+
+
+
 
 # CSS performance
 gem 'middleman-autoprefixer'

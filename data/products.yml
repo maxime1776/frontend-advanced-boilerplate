@@ -86,6 +86,14 @@
   description: Very wagon guy
   popularity: POPULAR
   image: arthur.png
+- name: Willi
+  description: Very cool guy
+  popularity: UNPOPULAR
+  image: arthur.png
+- name: Boris
+  description: Very wagon guy
+  popularity: POPULAR
+  image: arthur.png
 
 
 
